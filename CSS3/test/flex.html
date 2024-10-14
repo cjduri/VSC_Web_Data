@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <style>
+        .flex-container {
+  display: flex;
+  flex-wrap: wrap; /* 아이템이 한 줄에 다 들어가지 않을 때 줄바꿈 */
+}
+
+.flex-item {
+  flex: 1; /* 모든 아이템이 균등한 너비를 차지 */
+  border: 1px solid black;
+  box-sizing: border-box; /* 패딩과 보더가 요소의 크기에 포함 */
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        </div>
+</body>
+</html>
